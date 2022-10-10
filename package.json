@@ -64,12 +64,16 @@
 "src": "src"
 },
 "devDependencies": {},
+"scripts": {
+"start": "pm2 start main.js --deep-monitoring --attach",
+"test": "supervisor main"
+},
 "repository": {
 "type": "git",
-"url": "git+https://github.com/HW-XMTeam/INI-KERASA.git"
+"url": "git+https://github.com/HW-XMTeam/bothw-v9.git"
 },
 "bugs": {
-"url": "https://github.com/HW-XMTeam/INI-KERASA/issues"
+"url": "https://github.com/HW-XMTeam/bothw-v9/issues"
 },
 "homepage": "https://github.com/HW-XMTeam#readme"
 }
