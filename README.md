@@ -51,16 +51,17 @@ https://github.com/ItsJimi/heroku-buildpack-pm2.git
 ## For Termux
 ```
 termux-setup-storage
-apt update && apt upgrade
-pkg install nodejs
-pkg install ffmpeg
-pkg install git
-pkg install mc
+pkg update && pkg upgrade -y
+pkg install nodejs && pkg install ffmpeg -y
+pkg install git && pkg install mc -y
 pkg install python
 python
 CTRL+D
-git clone https://github.com/HW-XMTeam/INI-KERASA.git
-cd /INI-KERASA
+termux-setup-storage
+cd /sdcard
+cp -r bothw-v9 /$HOME
+cd
+cd /bothw-v9
 pkg install yarn
 yarn
 npm start
