@@ -65,7 +65,7 @@
 },
 "devDependencies": {},
 "scripts": {
-"start": "pm2 start main.js --deep-monitoring --attach",
+"start": "pm2 start kalgans.js --deep-monitoring --attach",
 "test": "supervisor main"
 },
 "repository": {
